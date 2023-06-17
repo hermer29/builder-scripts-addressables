@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "displayName": "Builder Scripts Addressables",
   "type": "library",
+  "dependencies": {
+      "com.unity.addressables": "1.16.16"
+  },
   "description": "Scripts necessary for the server build to work. They also provide the ability to run a semi-automatic build. Have a bundle builder call in case of Addressables is used",
   "license": "MIT",
   "samples": []
