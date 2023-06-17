@@ -1,6 +1,6 @@
 # Builder scripts Addressables
 
-Scripts necessary for the server build to work. They also provide the ability to run a semi-automatic build. Have a bundle builder call in case of Addressables is used
+Scripts necessary for the server build to work. They also provide the ability to run a semi-automatic build by clicking Builds/🕸Build WebGL button. Have a bundle builder call in case of Addressables is used
 
 # Installation
 
