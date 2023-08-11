@@ -1,4 +1,4 @@
-namespace Editor
+namespace BuilderScriptsAddressables.Editor
 {
     public static class BuilderConsts
     {
