@@ -1,6 +1,6 @@
 {
   "name": "com.immortalsgames.builderscriptsaddressables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Builder Scripts Addressables",
   "type": "library",
   "dependencies": {
