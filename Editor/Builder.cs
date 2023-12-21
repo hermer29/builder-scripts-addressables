@@ -24,7 +24,7 @@ namespace BuilderScript.Editor
             var location = $"{now.ToString("dd.MM.yyyy", culture)}_{PlayerSettings.productName}_{now.ToString("hh.mm", culture)}";
             BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
-                locationPathName = $"{GetArtifactsFolderLocation()}}/{location}",
+                locationPathName = $"{GetArtifactsFolderLocation()}/{location}",
                 scenes = EditorBuildSettings.scenes.Select(x => x.path).ToArray(),
                 target = Platform
             });
