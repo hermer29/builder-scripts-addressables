@@ -6,7 +6,7 @@ using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
 using static UnityEditor.BuildTarget;
 
-namespace BuilderScriptsAddressables.Editor
+namespace BuilderScript.Editor
 {
     public static class Builder
     {
