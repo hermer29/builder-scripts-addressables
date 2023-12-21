@@ -36,7 +36,7 @@ namespace BuilderScript.Editor
             {
                 return "../../artifacts";
             }
-            return "../artifacts";
+            return "./artifacts";
         }
 
         private static void PredefinePlatformSpecificSettings(BuildTarget target)
