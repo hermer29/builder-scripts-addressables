@@ -24,10 +24,19 @@ namespace BuilderScript.Editor
             var location = $"{now.ToString("dd.MM.yyyy", culture)}_{PlayerSettings.productName}_{now.ToString("hh.mm", culture)}";
             BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {
-                locationPathName = $"../../artifacts/{location}",
+                locationPathName = $"{GetArtifactsFolderLocation()}}/{location}",
                 scenes = EditorBuildSettings.scenes.Select(x => x.path).ToArray(),
                 target = Platform
             });
+        }
+
+        private static string GetArtifactsFolderLocation()
+        {
+            if(Directory.Exists("../../src"))
+            {
+                return "../../artifacts";
+            }
+            return "../artifacts";
         }
 
         private static void PredefinePlatformSpecificSettings(BuildTarget target)
